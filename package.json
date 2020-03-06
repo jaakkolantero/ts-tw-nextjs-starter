@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "build:tailwind": "npx tailwindcss build styles/index.css -o styles/forCSSIntellisense.css",
-    "init:tailwind": "npx tailwindcss init"
+    "init:tailwind": "npx tailwindcss init",
+    "commit": "npx git-cz"
   },
   "dependencies": {
     "next": "^9.2.0",
